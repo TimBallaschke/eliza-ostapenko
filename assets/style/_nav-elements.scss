@@ -1,0 +1,426 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000000;
+    // pointer-events: none;
+    mix-blend-mode: difference;
+    color: #fff;
+    height: calc(var(--page-padding-top) + var(--l-line-height) * var(--l-font-size) * 2);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+
+    &.no-blend {
+        mix-blend-mode: normal;
+        color: #000;
+    }
+
+    .initialize & {
+        opacity: 0;
+    }
+}
+    
+// #header > * {
+//     pointer-events: auto;
+// }
+    
+.title {
+    font-family: "Paragon Italic";
+    font-size: var(--l-font-size);
+    position: absolute;
+    top: var(--page-padding-top);
+    left: var(--page-padding-left);
+    letter-spacing: -1px;
+    z-index: 10000;
+    line-height: var(--l-line-height);
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+    
+.about-button {
+    font-family: "Paragon";
+    font-size: var(--l-font-size);
+    position: absolute;
+    top: var(--page-padding-top);
+    left: 15.7rem;
+    line-height: var(--l-line-height);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+
+    &:hover {
+        color: grey;
+    }
+
+    @include mobile {
+        display: none;
+    }
+
+    @include screen-s {
+        display: none;
+    }
+
+    @include screen-m {
+        left: 12rem;
+    }
+}
+    
+.calendar-button {
+    font-family: "Paragon";
+    font-size: var(--l-font-size);
+    position: absolute;
+    top: var(--page-padding-top);
+    right: var(--page-padding-right);
+    line-height: var(--l-line-height);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    transition: right 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+    .calendar-opened & {
+        right: 13.5rem;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &:hover {
+        color: grey;
+    }
+
+    @include mobile {
+        display: none;
+    }
+
+    @include screen-s {
+        display: none;
+    }
+
+    @include screen-m {
+        .calendar-opened & {
+            right: 10.3rem;
+        }
+    }
+
+    @include screen-l {
+        .calendar-opened & {
+            right: 13.9rem;
+        }
+    }
+}
+
+.calendar-close-button {
+    position: fixed;
+    top: var(--page-padding-top);
+    right: var(--page-padding-right);
+    font-size: var(--l-font-size);
+    line-height: var(--l-line-height);
+    cursor: pointer;
+    transform: translateX(20rem);
+    transition: transform 0.5s ease-in-out;
+
+    .calendar-opened & {
+        transform: translateX(0);
+    }
+    
+
+    &:hover {
+        color: grey;
+    }
+
+    @include mobile {
+        display: none;
+    }
+
+    @include mobile {
+        display: none;
+    }
+}
+
+.mobile-menu-button {
+    position: absolute;
+    top: var(--page-padding-top);
+    right: var(--page-padding-right);
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 1.1rem;
+    height: calc(var(--l-line-height) * var(--l-font-size));
+    z-index: 1900000;
+    transition: opacity 0.25s ease-in-out;
+
+    &.display-none {
+        opacity: 0;
+        pointer-events: none;
+        touch-action: none;
+        -webkit-touch-callout: none;
+    }
+
+    @include mobile {
+        display: flex;
+    }
+
+    @include screen-s {
+        display: flex;
+    }
+}
+
+.mobile-menu-dot {
+    width: 0.45rem;
+    height: 0.45rem;
+    background-color: #fff;
+    border-radius: 0.225rem;
+    transition: background-color 0.25s ease-in-out;
+
+    .no-blend & {
+        background-color: grey;
+    }
+}
+
+.mobile-menu {
+    position: fixed;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 4.4rem;
+    border-bottom: 1px solid black;
+    font-size: var(--l-font-size);
+    line-height: var(--l-line-height);
+    padding-left: var(--page-padding-left);
+    padding-right: var(--page-padding-right);
+    padding-bottom: var(--about-content-padding-bottom);
+    background-color: white;
+    mix-blend-mode: normal;
+    z-index: 1000;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateY(-100%);
+    opacity: 0;
+
+    .mobile-menu-opened & {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    @include mobile {
+        display: flex;
+    }
+
+    @include screen-s {
+        display: flex;
+    }
+}
+
+.mobile-menu-item {
+    opacity: 1;
+    transition: all 0.25s ease-in-out;
+
+    &.no-opacity {
+        opacity: 0;
+    }
+}
+
+.mobile-menu-about {
+    .about-opened & {
+        color: grey;
+    }
+}
+
+.mobile-menu-calendar {
+    .calendar-opened & {
+        color: grey;
+    }
+}
+
+.mobile-menu-close {
+    position: absolute;
+    top: var(--page-padding-top);
+    right: var(--page-padding-right);
+    font-size: var(--l-font-size);
+    line-height: var(--l-line-height);
+    transition: opacity 0.25s ease-in-out;
+    display: none;
+
+    &.display-none {
+        opacity: 0;
+        pointer-events: none;
+        touch-action: none;
+        -webkit-touch-callout: none;
+    }  
+
+    @include mobile {
+        display: block;
+    }
+
+    @include screen-s {
+        display: block;
+    }
+}
+
+.mobile-menu-back {
+    position: absolute;
+    top: var(--page-padding-top);
+    right: var(--page-padding-right);
+    font-size: var(--l-font-size);
+    line-height: var(--l-line-height);
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+    display: none;
+
+    &.display-none {
+        opacity: 0;
+        pointer-events: none;
+        touch-action: none;
+        -webkit-touch-callout: none;
+    }  
+
+    @include mobile {
+        display: block;
+    }
+
+    @include screen-s {
+        display: block;
+    }
+}
+
+
+#footer {
+    mix-blend-mode: difference;
+    color: #fff;
+    z-index: 10000;
+}
+
+.info-button {
+    font-family: "Paragon";
+    font-size: var(--l-font-size);
+    position: fixed;
+    bottom: var(--page-padding-bottom);
+    right: var(--page-padding-right);
+    line-height: var(--l-line-height);
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 100000;
+    transition: opacity 0.25s ease-in-out, bottom 0.5s ease-in-out, right 0.5s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+
+    &:hover {
+        color: grey;
+    }
+
+    .info-opened & {
+        bottom: calc(var(--page-padding-bottom) + var(--info-text-height));
+    }
+
+    .additional-text-opened & {
+        bottom: calc(var(--additional-text-container-height) + var(--page-padding-bottom));
+    }
+
+    &.no-opacity {
+        opacity: 0;
+    }
+
+    .calendar-opened & {
+        right: calc(var(--page-padding-right) + var(--about-calendar-width));
+    }
+
+    @include mobile {
+        .info-opened & {
+            opacity: 0;
+            bottom: var(--page-padding-bottom);
+        }
+    }
+}
+
+.read-more-button {
+    font-size: var(--m-font-size);
+    line-height: var(--m-line-height);
+    font-family: "Paragon";
+    cursor: pointer;
+
+    &:hover {
+        color: grey;
+    }
+}
+
+// Custom cursor styles
+.custom-cursor {
+    position: fixed;
+    pointer-events: none;
+    z-index: 4000000;
+    opacity: 0;
+    mix-blend-mode: difference;
+    color: #fff;
+    white-space: nowrap;
+    overflow: visible;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 1.5px solid #fff;
+    mix-blend-mode: difference;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    transition: opacity 0.1s ease-in-out;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+
+
+    .transitioning & {
+        opacity: 0 !important;
+    }
+}
+
+.custom-cursor-horizontal {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-top: 1.5px solid #fff;
+    height: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.custom-cursor-vertical {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1.5px solid #fff;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transform: translateX(-50%);
+
+    .plus-icon & {
+        opacity: 1;
+    }
+}
+
+
+
+// Optional: Add a subtle hover effect
+.single-image-container:hover {
+    // Any additional hover styles can go here
+}
+
+// Ensure the custom cursor doesn't interfere with other interactions
+.custom-cursor * {
+    pointer-events: none;
+    touch-action: none;
+    -webkit-touch-callout: none;
+} 

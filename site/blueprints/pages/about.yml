@@ -1,0 +1,258 @@
+title: About
+
+tabs:
+  about:
+    label: Text
+    columns:
+      - width: 2/3
+        sections:
+          aboutText:
+            type: fields
+            fields:
+              aboutTextarea:
+                type: textarea
+                label: About Text
+                buttons: false
+                size: large
+
+  contact:
+    label: Contact
+    columns:
+      - width: 1/3
+        sections:
+          artistImage:
+            type: fields
+            fields:
+              titleImage:
+                type: files
+                label: Artist Image
+                multiple: false
+                layout: cards
+      - width: 2/3
+        sections:
+          contactInfo:
+            type: fields
+            fields:
+              contactInfo:
+                type: textarea
+                label: Contact Info
+                buttons: false
+                size: small
+                placeholder: |
+                  example:
+                  Elizaveta Ostapenko
+                  Born in 1999, Moscow, Russia
+                  Based in Hamburg, Germany
+              eMail:
+                type: text
+                label: E-Mail
+              instagram:
+                type: text
+                label: Instagram Username
+                placeholder: "username"
+              instagramUrl:
+                type: url
+                label: Instagram URL
+
+  cv:
+    label: CV
+    columns:
+      - width: 1/1
+        sections:
+          education:
+            type: fields
+            fields:
+              education:
+                type: structure
+                label: Education
+                fields:
+                  yearStart:
+                    type: number
+                    label: Year Start
+                    min: 2000
+                    max: 2100
+                    required: true
+                    placeholder: "example: 2025"
+                  yearEnd:
+                    type: number
+                    min: 2000
+                    max: 2100
+                    label: Year End
+                    placeholder: "example: 2025"
+                  entry:
+                     type: text
+                     label: Entry
+                     placeholder: "example: University of Fine Arts Hamburg (HFBK), Bachelor of Fine Arts, Class of Prof. Pia Stadtbäumer"
+                     required: true
+
+      - width: 1/1
+        sections:
+          soloExhibitions:
+            type: fields
+            fields:
+              soloExhibitions:
+                type: structure
+                label: Solo Exhibitions
+                fields:
+                  yearStart:
+                    type: number
+                    label: Year Start
+                    min: 2000
+                    max: 2100
+                    required: true
+                    placeholder: "example: 2025"
+                  yearEnd:
+                    type: number
+                    min: 2000
+                    max: 2100
+                    label: Year End
+                    placeholder: "example: 2025"
+                  exhibition:
+                     type: text
+                     label: Exhibition
+                     required: true
+                     placeholder: "example: Déjà vu avant-première, DalgArt, Dâlga, Romania"
+
+      - width: 1/1
+        sections:
+          groupExhibitions:
+            type: fields
+            fields:
+              groupExhibitions:
+                type: structure
+                label: Group Exhibitions (Selection)
+                fields:
+                  yearStart:
+                    type: number
+                    label: Year Start
+                    min: 2000
+                    max: 2100
+                    required: true
+                    placeholder: "example: 2025"
+                  yearEnd:
+                    type: number
+                    min: 2000
+                    max: 2100
+                    label: Year End
+                    placeholder: "example: 2025"
+                  exhibition:
+                     type: text
+                     label: Exhibition
+                     required: true
+                     placeholder: "example: durch_drehen, xpon-art gallery, Hamburg, Germany"
+
+      - width: 1/1
+        sections:
+          awards:
+            type: fields
+            fields:
+              awards:
+                type: structure
+                label: Awards & Scholarships
+                fields:
+                  yearStart:
+                    type: number
+                    label: Year Start
+                    min: 2000
+                    max: 2100
+                    required: true
+                    placeholder: "example: 2025"
+                  yearEnd:
+                    type: number
+                    min: 2000
+                    max: 2100
+                    label: Year End
+                    placeholder: "example: 2025"
+                  title:
+                     type: text
+                     label: Title
+                     required: true
+                     placeholder: "example: Kölner Gymnasial- und Stiftungsfonds Scholarship, Cologne, Germany"
+
+      - width: 1/1
+        sections:
+          residency:
+            type: fields
+            fields:
+              residency:
+                type: structure
+                label: Residency
+                fields:
+                  yearStart:
+                    type: number
+                    label: Year Start
+                    min: 2000
+                    max: 2100
+                    required: true
+                    placeholder: "example: 2025"
+                  yearEnd:
+                    type: number
+                    min: 2000
+                    max: 2100
+                    label: Year End
+                    placeholder: "example: 2025"
+                  title:
+                     type: text
+                     label: Title
+                     required: true
+                     placeholder: "example: St. Petersburg art residency (SPAR). Virtual studio, St. Petersburg, Russia"
+
+  press:
+    label: Press
+    columns:
+      - width: 1/1
+        sections:
+          press:
+            type: fields
+            fields:
+              press:
+                type: structure
+                label: Press Entries
+                fields:
+                  title:
+                     type: textarea
+                     size: small
+                     label: Title
+                     required: true
+                     placeholder: "example: Article »Unaufgefallenes« rückt in den Blick by Elbe Wochenblatt, 2023"
+                     buttons:
+                       - italic
+                  url:
+                    type: url
+                    label: URL
+                  pdf:
+                      type: files
+                      label: PDF
+                      multiple: false
+                      layout: cards
+                      accept: application/pdf
+
+  imprint:
+    label: Imprint & Privacy Policy
+
+  download:
+    label: Download
+    columns:
+      - width: 1/3
+        sections:
+          portfolio:
+            type: fields
+            fields:
+              download:
+                type: files
+                label: Portfolio
+                multiple: false
+                layout: cards
+                accept: application/pdf
+
+      - width: 1/3
+        sections:
+          cv:
+            type: fields
+            fields:
+              cv:
+                type: files
+                label: CV
+                multiple: false
+                layout: cards
+                accept: application/pdf

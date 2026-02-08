@@ -1,0 +1,206 @@
+// Mobile width mixin
+@mixin mobile {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin screen-s {
+  @media (min-width: 577px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin screen-m {
+  @media (min-width: 768px) and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin screen-l {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media (min-width: 1200px) and (max-width: 1599px) {
+    @content;
+  }
+}
+
+@mixin screen-xxl {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin touch-device {
+
+  // @content;
+
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
+// Page Padding Variables
+:root {
+  // Main page padding
+  --page-padding-top: 0.4rem;
+  --page-padding-bottom: 0.5rem;
+  --page-padding-left: 0.7rem;
+  --page-padding-right: 0.7rem;
+  --artworks-overview-padding-top: calc(var(--l-line-height) * var(--l-font-size) * 2 + var(--page-padding-top));
+
+  // Typography
+  --l-font-size: 1.5rem;
+  --m-font-size: 0.85rem;
+  --s-font-size: 0.55rem;
+
+  --l-line-height: 1;
+  --m-line-height: 1.2;
+  --s-line-height: 1.2;
+
+  --m-number-line-height: 0.5;
+
+  --info-text-height: 100px;
+  --additional-text-container-height: calc(100vh - (var(--page-padding-top) + var(--l-line-height) * var(--l-font-size) * 3) - (var(--s-line-height) * var(--s-font-size) + var(--page-padding-bottom))); /* Fallback for dvh */
+  --additional-text-container-height: calc(100dvh - (var(--page-padding-top) + var(--l-line-height) * var(--l-font-size) * 3) - (var(--s-line-height) * var(--s-font-size) + var(--page-padding-bottom))); /* Dynamic viewport height */
+
+  --scale-value: 0.6;
+
+  --gallery-scaling-factor: 0.8;
+  --about-gallery-scaling-factor: 0.7;
+
+  --about-element-padding: calc(var(--l-line-height) * var(--l-font-size) * 1.6);
+  --about-content-padding-top: 0.3rem;
+  --about-content-padding-bottom: 0.3rem;
+  --about-content-padding-left: 0.7rem;
+  --about-calendar-width: 20rem;
+
+  // Grid
+  --overview-columns: 9;
+
+  @include mobile {
+    // Grid
+    --overview-columns: 4;
+
+      // Typography
+    --l-font-size: 1.5rem;
+    --m-font-size: 0.9rem;
+    --s-font-size: 0.65rem;
+
+    --l-line-height: 1;
+    --m-line-height: 1.2;
+    --s-line-height: 1.2;
+
+    --additional-text-container-height: calc(100vh - (var(--page-padding-top) + var(--l-line-height) * var(--l-font-size) + var(--m-line-height) * var(--m-font-size) * 3 + 0.3rem)); /* Fallback for dvh */
+    --additional-text-container-height: calc(100dvh - (var(--page-padding-top) + var(--l-line-height) * var(--l-font-size) + var(--m-line-height) * var(--m-font-size) * 3 + 0.3rem)); /* Dynamic viewport height */
+
+  }
+
+  @include screen-s {
+    // Grid
+    --overview-columns: 5;
+
+    --gallery-scaling-factor: 0.3;
+
+
+      // Typography
+    --l-font-size: 1.5rem;
+    --m-font-size: 0.9rem;
+    --s-font-size: 0.6rem;
+
+    --l-line-height: 1;
+    --m-line-height: 1.2;
+    --s-line-height: 1.2;
+
+    --background-color: pink;
+
+  }
+
+  @include screen-m {
+    // Grid
+    --overview-columns: 6;
+
+    --gallery-scaling-factor: 0.4;
+    --about-gallery-scaling-factor: 0.4;
+
+
+    --about-calendar-width: 15.6rem;
+
+
+
+      // Typography
+    --l-font-size: 1.1rem;
+    --m-font-size: 0.65rem;
+    --s-font-size: 0.4rem;
+
+    --l-line-height: 1;
+    --m-line-height: 1.2;
+    --s-line-height: 1.2;
+
+    --background-color: blue;
+
+  }
+
+  @include screen-l {
+    // Grid
+    --overview-columns: 7;
+
+    --gallery-scaling-factor: 0.5;
+
+
+      // Typography
+    --l-font-size: 1.4rem;
+    --m-font-size: 0.8rem;
+    --s-font-size: 0.5rem;
+
+    --l-line-height: 1;
+    --m-line-height: 1.2;
+    --s-line-height: 1.2;
+
+    --background-color: yellow;
+
+  }
+
+  @include screen-xl {
+    // Grid
+    --overview-columns: 9;
+
+    --gallery-scaling-factor: 0.7;
+
+      // Typography
+    --l-font-size: 1.5rem;
+    --m-font-size: 0.85rem;
+    --s-font-size: 0.55rem;
+
+    --l-line-height: 1;
+    --m-line-height: 1.2;
+    --s-line-height: 1.2;
+
+    --background-color: green;
+
+  }
+
+  @include screen-xxl {
+    // Grid
+    --overview-columns: 9;
+
+    --gallery-scaling-factor: 0.8;
+
+      // Typography
+    --l-font-size: 1.5rem;
+    --m-font-size: 0.85rem;
+    --s-font-size: 0.55rem;
+
+    --l-line-height: 1;
+    --m-line-height: 1.2;
+    --s-line-height: 1.2;
+
+    --background-color: red;
+  }
+}
+
+

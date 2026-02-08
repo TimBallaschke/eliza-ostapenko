@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px; /* Fallback for browsers with vw issues */
+    font-size: 2vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never; /* Note: font-smooth is not widely supported */
+
+    @include mobile {
+        font-size: 20px; /* Fallback for mobile browsers with vw issues */
+        font-size: 5.6vw;
+    }
+
+    @include screen-s {
+        font-size: 16px; /* Fallback for small screens with vw issues */
+        font-size: 4vw;
+    }
+
+    @include screen-m {
+        font-size: 14px; /* Fallback for medium screens with vw issues */
+        font-size: 3vw;
+    }
+
+    @include screen-l {
+        font-size: 16px; /* Fallback for large screens with vw issues */
+        font-size: 2.5vw;
+    }
+
+    @include screen-xl {
+        font-size: 16px; /* Fallback for extra large screens with vw issues */
+        font-size: 2vw;
+    }
+
+    @include screen-xxl {
+        font-size: 16px; /* Fallback for extra extra large screens with vw issues */
+        font-size: 2vw;
+    }
+}
+        
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    overscroll-behavior: none;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    text-decoration-color: transparent;
+    text-underline-offset: unset;
+    text-decoration-thickness: unset;
+
+    @include mobile {
+        overscroll-behavior: auto;
+    }
+
+    @include screen-s {
+        overscroll-behavior: auto;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    // background-color: #f4f4f4 !important;
+    // background-color: var(--background-color) !important;
+
+    @include touch-device {
+        // background-color: #84ff00 !important;
+    }
+}
+
+/* Hide scrollbars for webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbars for Firefox */
+html {
+    scrollbar-width: none;
+}
+
+/* Hide scrollbars for IE/Edge */
+body {
+    -ms-overflow-style: none;
+}
+
+.white-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; /* Fallback for browsers that don't support dvh */
+    height: 100dvh; /* Dynamic viewport height */
+    background-color: #fff;
+    z-index: 5000000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+
+    .url-loading & {
+        opacity: 1;
+    }
+}

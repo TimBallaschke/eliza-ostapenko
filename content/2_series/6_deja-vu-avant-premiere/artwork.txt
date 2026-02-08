@@ -1,0 +1,146 @@
+Title: Déjà vu avant-première
+
+----
+
+Artworkimages:
+
+- 
+  artworkimage:
+    - file://4gT3jIdNURsnwfmR
+  caption: >
+    Page 1, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://Vs6ilmyBYnhavpTU
+  caption: >
+    Page 2, 2020, Acrylic on paper, mounted
+    on a dibond panel, 14 x 21 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://4PgW0ag7m1XTNrWM
+  caption: >
+    Page 3, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://D4F0HF2Hhh4vmdzk
+  caption: >
+    Page 4, 2020, Acrylic on paper, mounted
+    on a dibond panel, 14 x 21 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://0WlRFM1iTkNCugzG
+  caption: >
+    Page 5, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://hs3QH5zuH4BKKDps
+  caption: >
+    Page 6, 2020, Acrylic on paper, mounted
+    on a dibond panel, 14 x 21 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://1QsO7LC7e0o09f65
+  caption: >
+    Page 7, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://Aga0FsrGKm08ncmh
+  caption: >
+    Page 8, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://BNlxfdcA8UAeItWR
+  caption: >
+    Page 9, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://7vPw4Nhip5Wce5aW
+  caption: >
+    Page 10, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://67xABml7T3dBs2lO
+  caption: >
+    Page 11, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://9xQEq8Eyb76NnXH8
+  caption: >
+    Page 12, 2020, Acrylic on paper, mounted
+    on a dibond panel, 21 x 14 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://3ZoQWOdkK971uB0i
+  caption: >
+    Page 13, 2020, Acrylic on paper, mounted
+    on a dibond panel, 14 x 21 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://tw9JIS0w7yHOq3Fw
+  caption: >
+    Page 14, 2020, Acrylic on paper, mounted
+    on a dibond panel, 14 x 21 x 0,3 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://jPfnFBemQeFWDuyD
+  caption: 'Déjà vu avant-première, DalgArt, Dâlga (Romania), 2024, Photo: Cristi Floriganta'
+  exhibition_view: 'true'
+  exhibition: calendar/deja-vu-avant-premiere
+- 
+  artworkimage:
+    - file://ObxWAI3dlfbZJxeD
+  caption: 'Déjà vu avant-première, DalgArt, Dâlga (Romania), 2024, Photo: Cristi Floriganta'
+  exhibition_view: 'true'
+  exhibition: calendar/deja-vu-avant-premiere
+
+----
+
+Artworktextarea: *Déjà vu avant-première* is a notion between seeing something which doesn’t exist yet and something very familiar, that one already knows. This is a space between reality and fiction, between past and future, between memory and prediction. The artist revisits and reuses an archive of her daily observations through a process of de/reconstructing found past impressions into new narratives and environments. The series of small-scale paintings was first shown at Ostapenko's solo exhibition *Déjà vu avant-première* in Romania, revealing fragments of existing and non-existing memories.
+
+----
+
+Additionaltextarea: 
+
+----
+
+Author: 
+
+----
+
+Uuid: QyLBtK8IfTGXYUDm

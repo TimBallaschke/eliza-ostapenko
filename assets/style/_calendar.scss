@@ -1,0 +1,288 @@
+.calendar-outter-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: var(--about-calendar-width);
+    height: 100%;
+    z-index: 1000000;
+    background-color: #fff;
+    border-left: 1px solid #000;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+    font-size: var(--m-font-size);
+    line-height: var(--m-line-height);
+
+    .calendar-opened & {
+        transform: translateX(0);
+    }
+
+    @include mobile {
+        width: 100vw;
+        height: 100vh; /* Fallback for dvh */
+        height: 100dvh; /* Dynamic viewport height */
+
+        .calendar-opened & {
+            transform: translateX(-1px);
+        }
+
+        .exhibition-opened-mobile & {
+            transform: translateX(-1px);
+        }
+    }
+
+    @include screen-s {
+        width: 100vw;
+        height: 100vh; /* Fallback for dvh */
+        height: 100dvh; /* Dynamic viewport height */
+
+        .calendar-opened & {
+            transform: translateX(-1px);
+        }
+
+        .exhibition-opened-mobile & {
+            transform: translateX(-1px);
+        }
+    }
+}
+
+
+.calendar-scroll-container {
+    position: fixed;
+    top: calc(var(--artworks-overview-padding-top) - 0.7rem);
+    left: var(--page-padding-left);
+    right: var(--page-padding-right);
+    background-color: white;
+    bottom: 0;
+    overflow: scroll;
+    border-top: 1px solid #000;
+    
+    // Hide scrollbar to prevent layout shifts
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+
+    @include mobile {
+        top: 4.3rem;
+
+        .exhibition-opened-mobile & {
+            top: calc(var(--artworks-overview-padding-top) - 0.7rem);
+        }
+    }
+
+    @include screen-s {
+        top: 4.3rem;
+
+        .exhibition-opened-mobile & {
+            top: calc(var(--artworks-overview-padding-top) - 0.7rem);
+        }
+    }
+}
+
+.calendar-container {
+    // padding-top: 0.6rem;
+}
+
+.events-container {
+    padding-bottom: var(--about-element-padding);
+}
+
+.events-headline {
+    font-size: var(--m-font-size);
+    line-height: var(--m-line-height);
+    padding-top: var(--about-content-padding-top);
+    padding-bottom: var(--about-content-padding-bottom);
+}
+
+.past-events-container {
+    .event-opening {
+        display: none;
+    }
+}
+
+.event-container {
+    border-top: 1px solid #000;
+    padding-top: var(--about-content-padding-top);
+    padding-bottom: var(--about-content-padding-bottom);
+}
+
+.event-title {
+    font-size: var(--l-font-size);
+    line-height: var(--l-line-height);
+}
+
+.event-more-information-button {
+    cursor: pointer;
+
+    &:hover {
+        color: grey;
+    }
+}
+
+.event-content {
+    position: relative;
+    transition: height 0.5s ease-in-out;
+}
+
+.event-preview-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.25s ease-in-out;
+
+    &.no-opacity {
+        opacity: 0;
+    }
+
+    &.display-none {
+        display: none;
+    }
+}
+
+.event-full-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: var(--about-content-padding-top);
+    padding-bottom: var(--about-element-padding);
+    transition: opacity 0.25s ease-in-out;
+
+    &.no-opacity {
+        opacity: 0;
+    }
+
+    &.display-none {
+        display: none;
+    }
+}
+
+.event-full-info-element {
+    border-top: 1px solid #000;
+    padding-top: var(--about-content-padding-top);
+    padding-bottom: var(--about-content-padding-bottom);
+    
+    &:first-child {
+        border-top: none;
+        padding-top: calc(var(--about-content-padding-top) * 2);
+    }
+}
+
+.event-full-info-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+    a {
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow-wrap: break-word;
+        display: inline;
+        
+        &:hover {
+            color: grey;
+        }
+    }
+}
+
+.event-text {
+    padding-top: calc(var(--about-content-padding-top) * 3);
+    padding-bottom: calc(var(--about-content-padding-bottom) * 3);
+    
+    p:not(:first-child) {
+        text-indent: calc(var(--page-padding-left) * 2);
+    }
+}
+
+.event-image-container {
+    width: 100%;
+    
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: none;
+        transition: filter 0.3s ease-in-out;
+        opacity: 0; // Start invisible
+        
+        &.low-res-loaded {
+            opacity: 1;
+        }
+        
+        &.high-res-loaded {
+            opacity: 1;
+        }
+        
+        &.blur {
+            filter: blur(3px);
+        }
+    }
+}
+
+.event-image-credits-hidden {
+    display: none;
+}
+
+.event-image-credits {
+    position: fixed;
+    font-size: var(--s-font-size);
+    line-height: var(--s-line-height);
+    z-index: 3000001;
+    transition: all 0.25s ease-in-out;
+    padding-top: var(--about-content-padding-top);
+}
+
+.event-image-caption-outter {
+    padding-bottom: calc(var(--about-content-padding-bottom) * 2);
+}
+
+.event-image-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--s-font-size);
+    line-height: var(--s-line-height);
+    // padding-top: var(--about-content-padding-top);
+}
+
+.view-series-button {
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+        color: grey;
+    }
+}
+
+.event-less-information-button {
+    padding-top: var(--about-content-padding-top);
+    padding-bottom: var(--about-content-padding-bottom);
+    cursor: pointer;
+
+    &:hover {
+        color: grey;
+    }
+}
+
+.calendar-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3000000;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+
+    &.visible {
+        opacity: 0.9;
+    }
+}
+
+.calendar-image-clone {
+    z-index: 3000001;
+    cursor: none;
+}

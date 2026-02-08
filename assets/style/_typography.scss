@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Paragon";
+    src: url("../fonts/Paragon-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Paragon Italic";
+    src: url("../fonts/Paragon-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url("../fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: "Paragon";
+}
+
+.multiplication-sign {
+    transform: translateY(0.04rem);
+    display: inline-block;
+}
+
+.arrow {
+    font-family: "Garamond";
+    display: inline-block;
+    transform: translateY(-0.04rem);
+    margin-right: 0rem;
+}
+
+.arrow-margin {
+    margin-right: 0.1rem;
+}
+
+.arrow-negative-margin {
+    margin-right: -0.05rem;
+}
+
+.arrow-down {
+    transform: translateY(-0.12rem);
+}
+
+.italic {
+    font-family: "Paragon Italic";
+}
+
+em {
+    font-family: "Paragon Italic";
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: grey;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.dimensions {
+    white-space: nowrap;
+}

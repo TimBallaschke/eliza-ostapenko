@@ -1,0 +1,142 @@
+title: Calendar Entry
+
+tabs:
+  information:
+    label: Information
+    columns:
+
+      - width: 1/2
+        sections:
+          title:
+            type: fields
+            fields:
+              title:
+                type: text
+                label: Title
+                required: true
+              startDate:
+                type: date
+                label: Start Date
+                required: true
+              endDate:
+                type: date
+                label: End Date
+                required: true
+              openingDate:
+                type: date
+                label: Opening Date
+                default: null
+              openingTime:
+                label: Opening Time
+                type: time
+                notation: 12
+                default: null
+              location:
+                type: structure
+                label: Location
+                empty: []
+                fields:
+                  name:
+                    type: text
+                    label: Name
+                    required: true
+                  street:
+                    type: text
+                    label: Street
+                  zip:
+                    type: text
+                    label: Zip
+                  city:
+                    type: text
+                    label: City
+                  country:
+                    type: text
+                    label: Country
+              openingHours:
+                type: textarea
+                size: small
+                label: Opening Hours
+                placeholder: |
+                  example:
+                  tuesday – friday: 11 a.m. – 7 p.m.
+                  saturday, sunday: 12 a.m. – 8 p.m.
+                buttons: false
+              otherParticipants:
+                type: structure
+                label: Other Participants
+                empty: []
+                fields:
+                  otherParticipant:
+                    type: text
+                    label: Name
+                    required: true
+              website:
+                type: url
+                label: Website
+              download:
+                 type: files
+                 label: Download
+                 multiple: false
+                 layout: cards
+                 accept: application/pdf, image/jpeg, image/png
+
+      - width: 1/2
+        sections:
+          infoText:
+            type: fields
+            fields:
+              info_textarea:
+                type: textarea
+                label: Info Text
+                buttons: 
+                  - italic
+                size: large
+                maxlength: 1500
+
+
+  images:
+    label: Event Images
+    columns:
+      - width: 1/1
+        sections:
+          artworkImages:
+            type: fields
+            fields:
+              eventImages:
+                type: structure
+                label: Images
+                empty: []
+                fields:
+                  eventImage:
+                    type: files
+                    label: Image
+                    layout: cards
+                    ratio: 1/1
+                    multiple: false
+                    required: true
+                  caption:
+                    type: text
+                    label: Caption
+                    maxlength: 80
+                  visibleArtworks:
+                    type: multiselect
+                    label: Visible Artworks
+                    options:
+                      type: query
+                      query: site.find('series').children
+
+  files:
+    label: Files
+    sections:
+      files:
+        type: files
+        headline: Files
+        info: "{{ file.dimensions }} – {{ file.niceSize }}"
+        layout: cards
+        size: medium
+        template: default
+
+
+
+
+

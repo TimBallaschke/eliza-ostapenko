@@ -1,0 +1,6 @@
+title: Calendar
+
+sections:
+  entries:
+    type: pages
+    template: calendar_entry

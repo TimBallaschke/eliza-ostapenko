@@ -1,0 +1,85 @@
+title: Artwork
+
+tabs:
+  content:
+    label: Content
+    columns:
+      - width: 1/1
+        sections:
+          artworkImages:
+            type: fields
+            fields:
+              artworkImages:
+                type: structure
+                label: Images
+                sortable: true
+                fields:
+                  artworkImage:
+                    type: files
+                    label: Image
+                    layout: cards
+                    ratio: 1/1
+                    multiple: false
+                    required: true
+                  caption:
+                    type: text
+                    label: Caption
+                    placeholder: "example: Print 1, 2024, Etching on paper, 55,5 x 74 cm"
+                    maxlength: 90
+                  exhibition_view:
+                    label: Exhibition View?
+                    type: toggle
+                    text: 
+                      - "No"
+                      - "Yes"
+                  exhibition:
+                    type: select
+                    label: Exhibition
+                    when:
+                      exhibition_view: true
+                    options:
+                      type: query
+                      query: site.find('calendar').children
+
+      - width: 1/2
+        sections:
+          artworkText:
+            type: fields
+            fields:
+              artworkTextarea:
+                type: textarea
+                label: Main Artwork Text
+                buttons:
+                  - italic
+                size: large
+                maxlength: 800
+                required: true
+
+      - width: 1/2
+        sections:
+          additionalText:
+            type: fields
+            fields:
+              additionalTextarea:
+                type: textarea
+                label: Additional Text (longer)
+                buttons:
+                  - italic
+                size: large
+              author:
+                type: text
+                label: Author
+
+  files:
+    label: Files
+    sections:
+      files:
+        type: files
+        headline: Files
+        info: "{{ file.dimensions }} – {{ file.niceSize }}"
+        layout: cards
+        size: medium
+        template: default
+
+
+

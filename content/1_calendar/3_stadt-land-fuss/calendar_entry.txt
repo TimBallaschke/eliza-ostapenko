@@ -1,0 +1,83 @@
+Title: Stadt, Land, Fluss
+
+----
+
+Startdate: 2025-04-30
+
+----
+
+Enddate: 2025-07-28
+
+----
+
+Openingdate: 
+
+----
+
+Openingtime: 
+
+----
+
+Location:
+
+- 
+  name: Wälderhaus
+  street: Am Inselpark 19
+  zip: "21109"
+  city: Hamburg
+  country: Germany
+
+----
+
+Openinghours:
+
+Open daily
+Midissage: 24 June, 18:00
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://www.sdw-hamburg.de/termine/details/?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&tx_sfeventmgt_pieventdetail%5Bevent%5D=1249&cHash=996d584a4cb7f11cb5b6f2e11c975beb
+
+----
+
+Download: 
+
+----
+
+Info-textarea: The show presents a selection of Elizaveta Ostapenko's recent paintings and prints. The display sets itself apart from a traditional white cube setting and invites visitors to engage with the works within the public space of the Wälderhaus building.
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://cVPM1wgfyU4PTMkN
+  caption: 'Photo: Julien Kartheuser'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare
+- 
+  eventimage:
+    - file://nHXvN7vEg88M52z7
+  caption: 'Photo: Julien Kartheuser'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare,
+    series/once-upon-somewhere-in-between
+- 
+  eventimage:
+    - file://qP00ie1r2gM9U0oU
+  caption: 'Photo: Julien Kartheuser'
+  visibleartworks: series/pasteurisation
+- 
+  eventimage:
+    - file://juH7CGjw1UCkRlUJ
+  caption: 'Photo: Julien Kartheuser'
+  visibleartworks: series/pasteurisation
+
+----
+
+Uuid: T36aJUJeDodR3nNJ

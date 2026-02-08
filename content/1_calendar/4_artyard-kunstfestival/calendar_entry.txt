@@ -1,0 +1,82 @@
+Title: ARTYARD Kunstfestival
+
+----
+
+Startdate: 2025-05-16
+
+----
+
+Enddate: 2025-05-18
+
+----
+
+Openingdate: 2025-05-16
+
+----
+
+Openingtime: 17:00:00
+
+----
+
+Location:
+
+- 
+  name: Landgang Brauerei
+  street: Beerenweg 12
+  zip: "22761"
+  city: Hamburg
+  country: Germany
+
+----
+
+Openinghours: Friday - from 17:00, Saturday - from 12:00
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://www.landgang-brauerei.de/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: Art festival at Landgang Brauerei with an art section, music, tattoos and workshops.
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://9oXSsSuQdjJFiVSj
+  caption: 'Photo: Anton Schön'
+  visibleartworks: series/deja-vu-avant-premiere
+- 
+  eventimage:
+    - file://G4sW32HMUiFagToQ
+  caption: 'Photo: Anton Schön'
+  visibleartworks: series/deja-vu-avant-premiere
+- 
+  eventimage:
+    - file://6dDpYVkmiTFlP1lw
+  caption: 'Photo: Anton Schön'
+  visibleartworks: series/deja-vu-avant-premiere
+- 
+  eventimage:
+    - file://2zfjanIe0SYFS0zl
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/deja-vu-avant-premiere
+- 
+  eventimage:
+    - file://CtfNsjrTZTiN3buj
+  caption: 'Photo: Anton Schön'
+  visibleartworks: series/deja-vu-avant-premiere
+
+----
+
+Uuid: 1XaWnbYvefcJbdYZ

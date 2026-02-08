@@ -1,0 +1,12 @@
+title: Elizaveta Ostapenko
+
+sections:
+  pages:
+    type: pages
+    headline: Pages
+    status: all
+    templates:
+      - about
+      - series
+      - calendar
+
