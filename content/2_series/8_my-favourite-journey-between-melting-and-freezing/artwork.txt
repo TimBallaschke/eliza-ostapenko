@@ -88,29 +88,28 @@ Artworkimages:
   artworkimage:
     - file://NsMlTY3eEcS6EehL
   caption: >
-    My favourite journey between melting and
-    freezing, 2022, Papier-mâché, plaster,
-    ceramic, acrylic paint, wood, plastic,
-    ca. 250 x 100 x 60 cm
+    Papier-mâché, plaster, ceramic,
+    acrylic paint, wood, plastic, ca. 250 x
+    100 x 60 cm, 2022
   exhibition_view: 'false'
   exhibition: ""
 - 
   artworkimage:
     - file://afaGVlAycHkXv3Vd
-  caption: 'Installation view, KDK Deichtorhallen, Hamburg (Germany), 2022, Photo: Courtesy of the artist'
+  caption: 'KDK Deichtorhallen, Hamburg (Germany), 2022, Photo: Courtesy of the artist'
   exhibition_view: 'false'
   exhibition: ""
 - 
   artworkimage:
     - file://rXlQ6bGaJyfgJ9Tk
-  caption: 'Installation view, KDK Deichtorhallen, Hamburg (Germany), 2022, Photo: Courtesy of the artist'
+  caption: 'KDK Deichtorhallen, Hamburg (Germany), 2022, Photo: Courtesy of the artist'
   exhibition_view: 'true'
   exhibition: >
     calendar/my-favourite-journey-between-melting-and-freezing
 - 
   artworkimage:
     - file://WbXmSvgRUuiouj4B
-  caption: 'Installation view, KDK Deichtorhallen, Hamburg (Germany), 2022, Photo: Courtesy of the artist'
+  caption: 'KDK Deichtorhallen, Hamburg (Germany), 2022, Photo: Courtesy of the artist'
   exhibition_view: 'true'
   exhibition: >
     calendar/my-favourite-journey-between-melting-and-freezing

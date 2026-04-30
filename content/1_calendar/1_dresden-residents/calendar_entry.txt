@@ -1,0 +1,94 @@
+Title: Dresden Residents
+
+----
+
+Startdate: 2026-03-10
+
+----
+
+Enddate: 2026-03-19
+
+----
+
+Openingdate: 2026-03-09
+
+----
+
+Openingtime: 19:00:00
+
+----
+
+Location:
+
+- 
+  name: Alte Feuerwache Loschwitz
+  street: Fidelio-F.-Finke-Straße 4
+  zip: "01326"
+  city: Dresden
+  country: Germany
+
+----
+
+Openinghours: Monday – Thursday, 10:00 – 15:00
+
+----
+
+Otherparticipants:
+
+- 
+  otherparticipant: Peili Huang
+- 
+  otherparticipant: Katrin Huber
+- 
+  otherparticipant: Amélie Royer
+
+----
+
+Website: https://feuerwache-loschwitz.de/ausstellungen/dresden-residents-1-26/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: This spring, artists from the cities of Tainan, Salzburg, Hamburg, and Strasbourg are participating in a joint exhibition in Dresden. They will present their artistic works as part of a collaboration between Grafikwerkstatt Dresden and the Office for Culture and Monument Protection of Dresden. The exhibition coincides with the artists’ working residency at the Grafikwerkstatt.
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://pxrxrfB8E0LRwia3
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/pasteurisation
+- 
+  eventimage:
+    - file://63bTT78H0n4lbmla
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/pasteurisation
+- 
+  eventimage:
+    - file://u15AOXZYvQnrC3T9
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/pasteurisation
+- 
+  eventimage:
+    - file://pLcAHKzUlIXGEAAM
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/pasteurisation
+- 
+  eventimage:
+    - file://Jl9d2Qa8wIWVgRrH
+  caption: ""
+  visibleartworks: ""
+- 
+  eventimage:
+    - file://Lq9sAW7ZDLZ8VEdU
+  caption: ""
+  visibleartworks: ""
+
+----
+
+Uuid: SPik98xPNbnStlkZ

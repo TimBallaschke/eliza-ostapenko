@@ -92,13 +92,37 @@ Artworkimages:
   exhibition: ""
 - 
   artworkimage:
-    - file://a01qWONvQMbFSeQf
+    - file://tyZokkyCYDaDLBHQ
+  caption: >
+    Dresden Residents, Alte Feuerwache
+    Loschwitz, Dresden (Germany), 2026
+  exhibition_view: 'true'
+  exhibition: calendar/dresden-residents
+- 
+  artworkimage:
+    - file://yvzr6sbwo1PsUj4A
+  caption: >
+    Dresden Residents, Alte Feuerwache
+    Loschwitz, Dresden (Germany), 2026
+  exhibition_view: 'true'
+  exhibition: calendar/dresden-residents
+- 
+  artworkimage:
+    - file://oC5TgUIoAolkQULf
+  caption: >
+    Dresden Residents, Alte Feuerwache
+    Loschwitz, Dresden (Germany), 2026
+  exhibition_view: 'true'
+  exhibition: calendar/dresden-residents
+- 
+  artworkimage:
+    - file://c4TqRopfqIyn0E32
   caption: 'Stadt. Land. Fluss, Wälderhaus, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
   exhibition_view: 'true'
   exhibition: calendar/stadt-land-fuss
 - 
   artworkimage:
-    - file://c4TqRopfqIyn0E32
+    - file://a01qWONvQMbFSeQf
   caption: 'Stadt. Land. Fluss, Wälderhaus, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
   exhibition_view: 'true'
   exhibition: calendar/stadt-land-fuss

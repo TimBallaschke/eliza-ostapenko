@@ -4,7 +4,7 @@ Title: About
 
 Abouttextarea:
 
-Elizaveta Ostapenko is a visual artist based in Hamburg, Germany. She graduated from the University of Fine Arts Hamburg in 2024, obtaining a BA degree in Fine Art. Her work has been exhibited internationally at venues such as the Second International Print Biennale Yerevan (Armenia), Aparte Gallery (Romania), and Klub der Künste der Deichtorhallen Hamburg (Germany). In 2022, Ostapenko was awarded the DAAD Prize and the Rotary Club Strasbourg Prize for Contemporary Art. In 2025, she received the Hans Purrmann Prize of the City of Speyer.
+Elizaveta Ostapenko (*1999, Moscow) is a visual artist based in Hamburg, Germany. She graduated from the University of Fine Arts Hamburg in 2024, obtaining a BA degree in Fine Art. Her work has been exhibited internationally at venues such as the Jubilee Fifth International Print Biennale Yerevan (Armenia), Aparte Gallery (Romania), and Klub der Künste der Deichtorhallen Hamburg (Germany). In 2022, Ostapenko was awarded the DAAD Prize and the Rotary Club Strasbourg Prize for Contemporary Art. In 2025, she received the Hans Purrmann Prize of the City of Speyer.
 <br>
 <br>
 Ostapenko’s work develops from the observation of everyday surroundings, exploring the process of transformation and states of movement and static. The artist collects found architectural fragments and playfully de- and reconstructs them into newly composed spaces. She works primarily with colourful, flat and reduced surfaces in the media of painting, printmaking and sculpture.
@@ -15,15 +15,11 @@ Titleimage: - file://gHxlfAMNXbQoklzJ
 
 ----
 
-Contactinfo:
-
-Elizaveta Ostapenko
-Born in 1999, Moscow, Russia
-Based in Hamburg, Germany
+Contactinfo: Based in Hamburg, Germany
 
 ----
 
-Email: eliza.ostapenko@gmail.com
+Email: contact@elizavetaostapenko.com
 
 ----
 
@@ -81,11 +77,29 @@ Soloexhibitions:
 Groupexhibitions:
 
 - 
+  yearstart: 2026
+  yearend: ""
+  exhibition: >
+    9. Eb-Dietzsch-Kunstpreis, Sparkasse
+    Gera-Greiz, Gera, Germany
+- 
+  yearstart: 2026
+  yearend: ""
+  exhibition: >
+    Dresden Residents, Alte Feuerwache
+    Loschwitz, Dresden, Germany
+- 
+  yearstart: 2025
+  yearend: ""
+  exhibition: >
+    Von Anfang an, Galerie Kaufmann,
+    Hamburg, Germany
+- 
   yearstart: 2025
   yearend: ""
   exhibition: >
     Jubilee Fifth International Print
-    Biennale Yerevan, Armenia (upcoming)
+    Biennale Yerevan, Armenia
 - 
   yearstart: 2025
   yearend: ""
@@ -176,6 +190,12 @@ Groupexhibitions:
 Awards:
 
 - 
+  yearstart: 2026
+  yearend: ""
+  title: >
+    9. Eb-Dietzsch-Kunstpreis (nomination),
+    Gera, Germany
+- 
   yearstart: 2025
   yearend: ""
   title: >
@@ -226,6 +246,10 @@ Awards:
 
 Residency:
 
+- 
+  yearstart: 2026
+  yearend: ""
+  title: Grafikwerkstatt Dresden, Germany
 - 
   yearstart: 2020
   yearend: ""

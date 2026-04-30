@@ -34,6 +34,13 @@ Artworkimages:
   caption: 'Hans Purrmann Prizes, Kulturhof Flachsgasse, Speyer (Germany), 2025, Photo: Klaus Venus'
   exhibition_view: 'true'
   exhibition: calendar/hans-purrmann-prizes-2025
+- 
+  artworkimage:
+    - file://MQzC70see2J9izMF
+  caption: 'Fifth International Print Biennale, Yerevan (Armenia), 2025, Photo: Courtesy of the artist'
+  exhibition_view: 'true'
+  exhibition: >
+    calendar/jubilee-fifth-international-print-biennale-yerevan
 
 ----
 

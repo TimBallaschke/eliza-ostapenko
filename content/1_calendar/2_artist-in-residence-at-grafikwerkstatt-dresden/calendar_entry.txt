@@ -1,0 +1,56 @@
+Title: Artist in Residence at Grafikwerkstatt Dresden
+
+----
+
+Startdate: 2026-03-01
+
+----
+
+Enddate: 2026-03-28
+
+----
+
+Openingdate: 
+
+----
+
+Openingtime: 
+
+----
+
+Location:
+
+- 
+  name: Grafikwerkstatt
+  street: Junghansstraße 3
+  zip: "01277"
+  city: Dresden
+  country: Germany
+
+----
+
+Openinghours: 
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://grafikwerkstattdresden.de/de/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: Elizaveta Ostapenko will be participating in an art residency at Grafikwerkstatt Dresden in March, developing a new printmaking project. The residency is supported by a scholarship from the Behörde für Kultur und Medien Hamburg.
+
+----
+
+Eventimages: 
+
+----
+
+Uuid: 81xfFDJrEcbCvLFi

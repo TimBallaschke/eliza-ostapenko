@@ -1,0 +1,60 @@
+Title: 9. Eb-Dietzsch-Kunstpreis
+
+----
+
+Startdate: 2026-04-02
+
+----
+
+Enddate: 2026-05-22
+
+----
+
+Openingdate: 2026-04-01
+
+----
+
+Openingtime: 
+
+----
+
+Location:
+
+- 
+  name: Sparkasse Gera-Greiz
+  street: Schloßstraße 11
+  zip: "07545"
+  city: Gera
+  country: Germany
+
+----
+
+Openinghours:
+
+Monday: 09:00 – 16:00
+Tuesday, Thursday: 09:00 – 18:00
+Wednesday, Friday: 09:00 – 12:00
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://www.eb-dietzsch-kunstpreis.de/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: Since 2008, an art prize for painting has been awarded every two years in Gera, dedicated to the Gera painter and graphic artist Eberhard (Eb) Dietzsch. In the first jury meeting, 60 works were nominated for exhibition and catalogue.
+
+----
+
+Eventimages: 
+
+----
+
+Uuid: heUQA2mK5lx3Y4sk
