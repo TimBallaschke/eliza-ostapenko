@@ -1,3 +1,10 @@
+<?php
+$asset = function ($path) {
+    $file = kirby()->root('index') . '/' . $path;
+    $version = file_exists($file) ? filemtime($file) : 1;
+    return url($path) . '?v=' . $version;
+};
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +14,7 @@
     <title>Elizaveta Ostapenko</title>
     <link rel="icon" type="image/svg+xml" href="<?= url('assets/svg/favicon-01.svg') ?>">
     <link rel="shortcut icon" type="image/svg+xml" href="<?= url('assets/svg/favicon-01.svg') ?>">
-    <link rel="stylesheet" href="<?= url('assets/style/style.css') ?>?v=3">
+    <link rel="stylesheet" href="<?= $asset('assets/style/style.css') ?>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
 
@@ -855,16 +862,16 @@
             <div class="info-button no-opacity"><span class="arrow arrow-margin">→</span>Info</div>
         </footer>
 
-        <script src="<?= url('assets/js/initialize.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/image-loading.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/progressive-loading.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/grid-layout.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/calendar.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/calendar-sorting.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/zoom.js') ?>?v=2"></script>
-        <script src="<?= url('assets/js/favicon.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/cursor.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/imprint.js') ?>?v=2"></script>
+        <script src="<?= $asset('assets/js/initialize.js') ?>"></script>
+        <script src="<?= $asset('assets/js/image-loading.js') ?>"></script>
+        <script src="<?= $asset('assets/js/progressive-loading.js') ?>"></script>
+        <script src="<?= $asset('assets/js/grid-layout.js') ?>"></script>
+        <script src="<?= $asset('assets/js/calendar.js') ?>"></script>
+        <script src="<?= $asset('assets/js/calendar-sorting.js') ?>"></script>
+        <script src="<?= $asset('assets/js/zoom.js') ?>"></script>
+        <script src="<?= $asset('assets/js/favicon.js') ?>"></script>
+        <script src="<?= $asset('assets/js/cursor.js') ?>"></script>
+        <script src="<?= $asset('assets/js/imprint.js') ?>"></script>
     </body>
 
 </html>
