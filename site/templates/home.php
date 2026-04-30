@@ -293,12 +293,12 @@
                     <div class="headline">Imprint</div>
                         <div class="imprint-element">
                             Elizaveta Ostapenko<br>
-                            Visual Artist, freelance<br>
+                            Visual Artist<br>
                             Hammer Steindamm 53<br>
                             22089 Hamburg<br>
                             <br>
                             Phone: +49 176 76867414<br>
-                            Email: eliza.ostapenko@gmail.com
+                            Email: contact@elizavetaostapenko.com
                         </div>
                         <div class="subheadline italic">Hosting</div>
                         <div class="imprint-element">
@@ -320,10 +320,10 @@
                         <div class="imprint-element">
                             Data Controller under applicable data protection law (GDPR):<br>
                             Elizaveta Ostapenko<br>
-                            Visual Artist, freelance<br>
+                            Visual Artist<br>
                             Hammer Steindamm 53<br>
                             22089 Hamburg<br>
-                            Email: eliza.ostapenko@gmail.com<br>
+                            Email: contact@elizavetaostapenko.com<br>
                             Phone: +49 176 76867414
                         </div>
                         <div class="subheadline italic">Collection and Processing of Personal Data</div>
@@ -364,7 +364,7 @@
                                 <li>request data portability.</li>
                             </ul>
                             <br>
-                            Requests may be submitted to: eliza.ostapenko@gmail.com.
+                            Requests may be submitted to: contact@elizavetaostapenko.com.
                         </div>
                         <div class="subheadline italic">Data Protection Officer</div>
                         <div class="imprint-element">
@@ -658,7 +658,7 @@
                                 </div>
                                 <div class="event-full-container no-opacity display-none">
                                     <div class="event-full-info-element">
-                                        <div class="event-full-subheadline italic">Exhibition dates:</div>
+                                        <div class="event-full-subheadline italic">Dates:</div>
                                         <div class="event-full-info-text">
                                             <?= date('j.n.', strtotime($calendarEntry->startDate()->html())) ?> – <?= date('j.n.y', strtotime($calendarEntry->endDate()->html())) ?>
                                         </div>
@@ -852,7 +852,7 @@
                 <div class="artwork-author-text"></div>
                 <div class="artwork-additional-text"></div>
             </div>
-            <div class="info-button no-opacity">Info</div>
+            <div class="info-button no-opacity"><span class="arrow arrow-margin">→</span>Info</div>
         </footer>
 
         <script src="<?= url('assets/js/initialize.js') ?>?v=1"></script>
@@ -861,10 +861,10 @@
         <script src="<?= url('assets/js/grid-layout.js') ?>?v=1"></script>
         <script src="<?= url('assets/js/calendar.js') ?>?v=1"></script>
         <script src="<?= url('assets/js/calendar-sorting.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/zoom.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/zoom.js') ?>?v=2"></script>
         <script src="<?= url('assets/js/favicon.js') ?>?v=1"></script>
         <script src="<?= url('assets/js/cursor.js') ?>?v=1"></script>
-        <script src="<?= url('assets/js/imprint.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/imprint.js') ?>?v=2"></script>
     </body>
 
 </html>
