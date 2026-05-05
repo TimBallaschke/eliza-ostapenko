@@ -1835,12 +1835,12 @@ function updateArtworkInfo() {
     
     // Check if additional text exists and is not empty
     if (currentGalleryElementAdditionalTextHidden && currentGalleryElementAdditionalTextHidden.trim() !== '') {
-        artworkMainText.innerHTML = currentGalleryElementMainText + '<span class="read-more-button"><span class="arrow arrow-margin">→ </span><span class="italic">read more</span></span>';
+        artworkMainText.innerHTML = currentGalleryElementMainText + '<span class="read-more-button"><span class="arrow arrow-margin">→ </span><span class="italic">read critical text</span></span>';
 
         const artworkAdditionalText = document.querySelector('.artwork-additional-text');
         // Convert <br> tags to <p> elements before setting the content
         const processedAdditionalText = convertBrToParagraphs(currentGalleryElementAdditionalTextHidden);
-        artworkAdditionalText.innerHTML = processedAdditionalText + '<span class="read-more-button"><span class="arrow arrow-margin">← </span><span class="italic">show less</span></span>';
+        artworkAdditionalText.innerHTML = processedAdditionalText + '<span class="read-more-button"><span class="arrow arrow-margin">← </span><span class="italic">hide critical text</span></span>';
 
         const currentGalleryElementAuthorText = currentGalleryElement.querySelector('.artwork-hidden-author').textContent;
         const artworkAuthorText = document.querySelector('.artwork-author-text');
@@ -2126,7 +2126,7 @@ function closeArtworkInfo() {
             const artworkTitle = document.querySelector('.artwork-title');
             artworkTitle.classList.remove('large-font-size');
 
-            artworkInfoButton.innerHTML = '<span class="arrow arrow-margin">→</span>Info';
+            artworkInfoButton.textContent = 'Info';
         } else {
             const mobileMenuBack = document.querySelector('.mobile-menu-back');
             mobileMenuBack.removeEventListener('click', closeArtworkInfo);
@@ -2200,7 +2200,7 @@ function closeArtworkInfo() {
             const artworkTitle = document.querySelector('.artwork-title');
             artworkTitle.classList.remove('large-font-size');
 
-            artworkInfoButton.innerHTML = '<span class="arrow arrow-margin">→</span>Info';
+            artworkInfoButton.textContent = 'Info';
         } else {
             const mobileMenuBack = document.querySelector('.mobile-menu-back');
             mobileMenuBack.removeEventListener('click', closeArtworkInfo);
@@ -2628,10 +2628,10 @@ function toggleAbout() {
         stepScaling(false);
         isAboutOpen = false;
 
-        // Remove "about" or "imprint" from URL
+        // Remove "-about" from URL
         const currentPath = window.location.pathname;
-        if (currentPath.endsWith('about') || currentPath.endsWith('imprint')) {
-            const newPath = currentPath.replace(/(about|imprint)$/, '');
+        if (currentPath.endsWith('about')) {
+            const newPath = currentPath.replace('about', '');
             window.history.pushState({}, '', newPath || '/');
         }
 
@@ -2655,7 +2655,7 @@ function toggleAbout() {
 
                 document.body.classList.remove('imprint-opened-2');
                 document.body.classList.add('imprint-opened-1');
-
+    
                 setTimeout(() => {
                     document.body.classList.remove('imprint-opened-1');
                 }, 250);
@@ -2665,13 +2665,11 @@ function toggleAbout() {
     } else {
         document.body.classList.add('right');
 
-        // Add "about" to URL, replacing any existing slug — but preserve "imprint" if already present (deep-link init)
+        // Add "-about" to URL, replacing any existing slug
         const currentPath = window.location.pathname;
-        if (!currentPath.endsWith('imprint')) {
-            const basePath = currentPath.replace(/\/[^\/]*$/, ''); // Remove everything after the last slash
-            const newPath = basePath + 'about';
-            window.history.pushState({}, '', newPath);
-        }
+        const basePath = currentPath.replace(/\/[^\/]*$/, ''); // Remove everything after the last slash
+        const newPath = basePath + 'about';
+        window.history.pushState({}, '', newPath);
 
         setTimeout(() => {
             document.body.classList.add('about-opened');
@@ -3384,18 +3382,16 @@ function toggleAboutMobile() {
 
     // Handle URL changes
     if (!wasAboutOpen) {
-        // Opening about - add "about" to URL, replacing any existing slug — but preserve "imprint" if already present (deep-link init)
+        // Opening about - add "about" to URL, replacing any existing slug
         const currentPath = window.location.pathname;
-        if (!currentPath.endsWith('imprint')) {
-            const basePath = currentPath.replace(/\/[^\/]*$/, ''); // Remove everything after the last slash
-            const newPath = basePath + 'about';
-            window.history.pushState({}, '', newPath);
-        }
+        const basePath = currentPath.replace(/\/[^\/]*$/, ''); // Remove everything after the last slash
+        const newPath = basePath + 'about';
+        window.history.pushState({}, '', newPath);
     } else {
-        // Closing about - remove "about" or "imprint" from URL
+        // Closing about - remove "about" from URL
         const currentPath = window.location.pathname;
-        if (currentPath.endsWith('about') || currentPath.endsWith('imprint')) {
-            const newPath = currentPath.replace(/(about|imprint)$/, '');
+        if (currentPath.endsWith('about')) {
+            const newPath = currentPath.replace('about', '');
             window.history.pushState({}, '', newPath || '/');
         }
     }
@@ -3859,23 +3855,6 @@ function initializeAboutState() {
     }
 }
 
-// Helper function to initialize imprint state (opens about + imprint)
-function initializeImprintState() {
-    const triggerImprint = () => {
-        const imprintBtn = document.querySelector('.imprint-button');
-        if (imprintBtn) imprintBtn.click();
-    };
-
-    if (!isMobile()) {
-        toggleAbout();
-        setTimeout(triggerImprint, 600);
-    } else {
-        setTimeout(() => openMobileMenu(), 1200);
-        setTimeout(() => toggleAboutMobile(), 1500);
-        setTimeout(triggerImprint, 2100);
-    }
-}
-
 // Helper function to initialize calendar state
 function initializeCalendarState(eventSlug = null) {
     if (!isMobile()) {
@@ -3903,14 +3882,6 @@ function initializeFromURL() {
 
     // Parse URL segments
     const pathSegments = currentPath.split('/').filter(segment => segment !== '');
-
-    // Check for imprint state (must come before about, since /imprint should open about + imprint)
-    if (currentPath.includes('imprint')) {
-        setTimeout(() => {
-            initializeImprintState();
-        }, 1000);
-        return;
-    }
 
     // Check for about state
     if (currentPath.includes('about')) {
@@ -3988,28 +3959,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('is not TouchDevice');
 
     }
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    const forwardTargets = document.querySelectorAll('.image-caption, .artwork-title-text');
-
-    forwardTargets.forEach((el) => {
-        el.addEventListener('wheel', (e) => {
-            if (!currentGalleryElement) return;
-            const activeGallery = currentGalleryElement
-                .closest('.artwork-gallery-images-container')
-                ?.querySelector('.artwork-gallery-images');
-            if (!activeGallery) return;
-
-            e.preventDefault();
-            activeGallery.dispatchEvent(new WheelEvent('wheel', {
-                deltaX: e.deltaX,
-                deltaY: e.deltaY,
-                deltaZ: e.deltaZ,
-                deltaMode: e.deltaMode,
-                bubbles: true,
-                cancelable: true,
-            }));
-        }, { passive: false });
-    });
 });

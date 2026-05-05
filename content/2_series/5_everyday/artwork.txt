@@ -1,0 +1,152 @@
+Title: Everyday
+
+----
+
+Artworkimages:
+
+- 
+  artworkimage:
+    - file://M0M367xgKX0e1u24
+  caption: >
+    Everyday 1, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://hJOeN89YtndknayV
+  caption: >
+    Everyday 2, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://JZAtDj7B7M3A07cs
+  caption: >
+    Everyday 3, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://rRR3yq3ENartFxII
+  caption: >
+    Everyday 4, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://0ECXyPPQb7813vcD
+  caption: >
+    Everyday 5, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://opSZM0HCTNsjATs3
+  caption: >
+    Everyday 6, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://0aGtTJ3DeEV1MvXa
+  caption: >
+    Everyday 7, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://LLXuHrRxNgdIyXd4
+  caption: >
+    Everyday 8, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://DMhQ3Vw7yPDpXfDO
+  caption: >
+    Everyday 9, 2018, Acrylic on photograph,
+    Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://8d9BihNRWLc7bX0M
+  caption: >
+    Everyday 10, 2018, Acrylic on
+    photograph, Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://izoeqvft95kCQWQK
+  caption: >
+    Everyday 11, 2018, Acrylic on
+    photograph, Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://PSENiMYCzilsQ3Ij
+  caption: >
+    Everyday 15, 2018, Acrylic on
+    photograph, Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://yWdhRSOW53DQNGoM
+  caption: >
+    Everyday 17, 2018, Acrylic on
+    photograph, Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://iB1Hc4tj31WElUNm
+  caption: >
+    Everyday 19, 2018, Acrylic on
+    photograph, Framed in 18 x 18 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://hdHb9DHQXDBHthIE
+  caption: 'Unaufgefallenes, SameSame Galerie, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/unaufgefallenes
+- 
+  artworkimage:
+    - file://DsWBBH2Ld2tCdJOJ
+  caption: 'Unaufgefallenes, SameSame Galerie, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/unaufgefallenes
+- 
+  artworkimage:
+    - file://L00cJzKrJA2ipoBX
+  caption: 'Unaufgefallenes, SameSame Galerie, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/unaufgefallenes
+
+----
+
+Artworktextarea: Collected during the artist’s daily walks, these images capture everyday street scenes: debris, temporary barriers, objects in decay. These found still lifes, isolated from their original context and presented as staged, almost theatrical compositions, invite the viewer to look closer at what usually goes unnoticed.
+
+----
+
+Additionaltextarea: 
+
+----
+
+Author: 
+
+----
+
+Uuid: ZXhzsBtifzcFuI7C

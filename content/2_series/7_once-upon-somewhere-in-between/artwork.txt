@@ -1,0 +1,57 @@
+Title: Once upon somewhere in between
+
+----
+
+Artworkimages:
+
+- 
+  artworkimage:
+    - file://fjAbm2FHEYKwWmqb
+  caption: >
+    Print 1, 2024, Etching on paper, Unique
+    Print, 55,5 x 74 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://wXjDQF4MxffEnuAH
+  caption: >
+    Print 2, 2024, Etching on paper, color
+    pencils, Unique Print, 55,5 x 44 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://w8GFDKo1CILWKrdr
+  caption: >
+    Print 3, 2024, Etching on paper, color
+    pencils, Unique Print, 55,5 x 48 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://Srfc5ZUvt1O89OUr
+  caption: 'Hans Purrmann Prizes, Kulturhof Flachsgasse, Speyer (Germany), 2025, Photo: Klaus Venus'
+  exhibition_view: 'true'
+  exhibition: calendar/hans-purrmann-prizes-2025
+
+----
+
+Artworktextarea: In a space gap between stasis and motion, between reality and fiction, between tension and ease, many curious finds lie to be discovered. It is an invitation to slow down and explore these suspended spaces, unfold hidden layers, and reveal new possible journey fragments.
+
+----
+
+Additionaltextarea:
+
+Elizaveta Ostapenko engages with the theme of transformation in her prints, paintings and installations. Her works arise from observations of the everyday environment, exploring processes of transformation and states of movement and static. Ostapenko deconstructs and reconstructs found fragments into new, complex architectural spaces, working primarily with colour and reduced surfaces.
+As the winner of the Hans Purrmann Advancement Award 2025, she is showing a cycle of etchings entitled *Once upon somewhere in between* (first exhibited at the HFBK Hamburg Annual Exhibition 2024) and a panoramic painting of five dibond panels entitled *Some say we have no time to stand and stare (Panel 6)* (2024).
+The cycle, consisting of three medium-sized prints, refers in its title to the fairy-tale, dreamlike allusion 'once upon' and 'somewhere' to an imaginary space; 'in between' reinforces the statement of an intermediate world, a memory or a state of transition. The etchings are printed in two colours, ochre and light grey, creating an atmospheric distance. Ostapenko draws into the prints with a pencil, transforming the editioned print into an individual graphic.
+This contrasts with the panoramic painting *Some say we have no time to stand and stare (Panel 6)*. The title is perhaps a reflection on the speed of modern life and, at the same time, an invitation to slowness and careful observation. Here, on a 100 × 590 cm surface, the artist paints hard-edged, bold, camouflage-like patches of colour, rhythmically repeating a landscape or related motif from narrow on the left to wide and mirrored in the centre. This repetition of motifs follows the principle of a photographic shot with progressively longer times of exposure.
+
+----
+
+Author: Prof. Frank-Joachim Grossmann, Jury member of the International Print Biennial Yerevan 2023
+
+----
+
+Uuid: TZWp0FAl3vitFp19

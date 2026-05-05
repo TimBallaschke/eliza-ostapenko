@@ -1,0 +1,73 @@
+Title: Cubes
+
+----
+
+Artworkimages:
+
+- 
+  artworkimage:
+    - file://J3zkbDTozf4Whj7R
+  caption: >
+    Blue cubes, 2024, Acrylic and markers on
+    paper, 31 x 51 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://LMQ3Dj8EWeHnOVIW
+  caption: >
+    Green cubes, 2024, Acrylic and markers
+    on paper, 36 x 46 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://bandSYT8uu4QuXCn
+  caption: >
+    Blues cubes, 2025, Acrylic, vinyl paint
+    and markers on paper, 35,5 x 44,6 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://wGHM5WiWSLpp6Mrv
+  caption: >
+    Long purple cubes, 2025, Acrylic, vinyl
+    paint and markers on paper, 22,5 x 76,4
+    cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://F0zjZnqOKrOxofsF
+  caption: 'Déjà vu avant-première, DalgArt, Dâlga (Romania), 2024, Photo: Courtesy of the artist'
+  exhibition_view: 'true'
+  exhibition: calendar/deja-vu-avant-premiere
+- 
+  artworkimage:
+    - file://iZZezq9A3he7Uv1e
+  caption: 'Unaufgefallenes, SameSame Galerie, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/unaufgefallenes
+- 
+  artworkimage:
+    - file://gV5OQiBoGJ8hXAQg
+  caption: 'Unaufgefallenes, SameSame Galerie, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/unaufgefallenes
+
+----
+
+Artworktextarea: An ongoing series of paintings inspired by the shapes and colors found in the Hamburg port.
+
+----
+
+Additionaltextarea: 
+
+----
+
+Author: 
+
+----
+
+Uuid: 2Ziq1DYPsS6Y5Rep

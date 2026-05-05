@@ -13,11 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const startDateStr = eventContainer.getAttribute('data-start-date');
         const endDateStr = eventContainer.getAttribute('data-end-date');
         
-        // Convert to Date objects (parse as local time, treat end date as end-of-day)
-        const [startY, startM, startD] = startDateStr.split('-').map(Number);
-        const [endY, endM, endD] = endDateStr.split('-').map(Number);
-        const startDate = new Date(startY, startM - 1, startD, 0, 0, 0, 0);
-        const endDate = new Date(endY, endM - 1, endD, 23, 59, 59, 999);
+        // Convert to Date objects
+        const startDate = new Date(startDateStr);
+        const endDate = new Date(endDateStr);
         
         // Determine event status
         let eventStatus;

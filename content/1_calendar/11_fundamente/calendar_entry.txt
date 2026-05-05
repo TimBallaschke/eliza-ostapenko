@@ -1,0 +1,83 @@
+Title: Fundamente
+
+----
+
+Startdate: 2023-10-12
+
+----
+
+Enddate: 2024-01-06
+
+----
+
+Openingdate: 2023-10-12
+
+----
+
+Openingtime: 18:00:00
+
+----
+
+Location:
+
+- 
+  name: Galerie Kaufmann
+  street: Erikastraße 47
+  zip: "20251"
+  city: Hamburg
+  country: Germany
+
+----
+
+Openinghours:
+
+Thursday - Friday 15:00 - 18:00
+Saturday 11:00 - 14:00
+
+----
+
+Otherparticipants:
+
+- 
+  otherparticipant: Daniel Hörner
+- 
+  otherparticipant: Nis Knudsen
+
+----
+
+Website: https://galeriekaufmann.de/exhibition/fragmente/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: 
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://bRDZRalgvVZqvCWz
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare
+- 
+  eventimage:
+    - file://Q4Vlh3tiB3peu71P
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare
+- 
+  eventimage:
+    - file://4xkQzu1Cco4KL6Rt
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare
+
+----
+
+Uuid: Zww2lxQ06sZg1uOl

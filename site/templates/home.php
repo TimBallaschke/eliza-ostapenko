@@ -1,10 +1,3 @@
-<?php
-$asset = function ($path) {
-    $file = kirby()->root('index') . '/' . $path;
-    $version = file_exists($file) ? filemtime($file) : 1;
-    return url($path) . '?v=' . $version;
-};
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +7,7 @@ $asset = function ($path) {
     <title>Elizaveta Ostapenko</title>
     <link rel="icon" type="image/svg+xml" href="<?= url('assets/svg/favicon-01.svg') ?>">
     <link rel="shortcut icon" type="image/svg+xml" href="<?= url('assets/svg/favicon-01.svg') ?>">
-    <link rel="stylesheet" href="<?= $asset('assets/style/style.css') ?>">
+    <link rel="stylesheet" href="<?= url('assets/style/style.css') ?>?v=3">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
 
@@ -300,12 +293,12 @@ $asset = function ($path) {
                     <div class="headline">Imprint</div>
                         <div class="imprint-element">
                             Elizaveta Ostapenko<br>
-                            Visual Artist<br>
+                            Visual Artist, freelance<br>
                             Hammer Steindamm 53<br>
                             22089 Hamburg<br>
                             <br>
                             Phone: +49 176 76867414<br>
-                            Email: contact@elizavetaostapenko.com
+                            Email: eliza.ostapenko@gmail.com
                         </div>
                         <div class="subheadline italic">Hosting</div>
                         <div class="imprint-element">
@@ -327,10 +320,10 @@ $asset = function ($path) {
                         <div class="imprint-element">
                             Data Controller under applicable data protection law (GDPR):<br>
                             Elizaveta Ostapenko<br>
-                            Visual Artist<br>
+                            Visual Artist, freelance<br>
                             Hammer Steindamm 53<br>
                             22089 Hamburg<br>
-                            Email: contact@elizavetaostapenko.com<br>
+                            Email: eliza.ostapenko@gmail.com<br>
                             Phone: +49 176 76867414
                         </div>
                         <div class="subheadline italic">Collection and Processing of Personal Data</div>
@@ -371,7 +364,7 @@ $asset = function ($path) {
                                 <li>request data portability.</li>
                             </ul>
                             <br>
-                            Requests may be submitted to: contact@elizavetaostapenko.com.
+                            Requests may be submitted to: eliza.ostapenko@gmail.com.
                         </div>
                         <div class="subheadline italic">Data Protection Officer</div>
                         <div class="imprint-element">
@@ -665,7 +658,7 @@ $asset = function ($path) {
                                 </div>
                                 <div class="event-full-container no-opacity display-none">
                                     <div class="event-full-info-element">
-                                        <div class="event-full-subheadline italic">Dates:</div>
+                                        <div class="event-full-subheadline italic">Exhibition dates:</div>
                                         <div class="event-full-info-text">
                                             <?= date('j.n.', strtotime($calendarEntry->startDate()->html())) ?> – <?= date('j.n.y', strtotime($calendarEntry->endDate()->html())) ?>
                                         </div>
@@ -859,19 +852,19 @@ $asset = function ($path) {
                 <div class="artwork-author-text"></div>
                 <div class="artwork-additional-text"></div>
             </div>
-            <div class="info-button no-opacity"><span class="arrow arrow-margin">→</span>Info</div>
+            <div class="info-button no-opacity">Info</div>
         </footer>
 
-        <script src="<?= $asset('assets/js/initialize.js') ?>"></script>
-        <script src="<?= $asset('assets/js/image-loading.js') ?>"></script>
-        <script src="<?= $asset('assets/js/progressive-loading.js') ?>"></script>
-        <script src="<?= $asset('assets/js/grid-layout.js') ?>"></script>
-        <script src="<?= $asset('assets/js/calendar.js') ?>"></script>
-        <script src="<?= $asset('assets/js/calendar-sorting.js') ?>"></script>
-        <script src="<?= $asset('assets/js/zoom.js') ?>"></script>
-        <script src="<?= $asset('assets/js/favicon.js') ?>"></script>
-        <script src="<?= $asset('assets/js/cursor.js') ?>"></script>
-        <script src="<?= $asset('assets/js/imprint.js') ?>"></script>
+        <script src="<?= url('assets/js/initialize.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/image-loading.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/progressive-loading.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/grid-layout.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/calendar.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/calendar-sorting.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/zoom.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/favicon.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/cursor.js') ?>?v=1"></script>
+        <script src="<?= url('assets/js/imprint.js') ?>?v=1"></script>
     </body>
 
 </html>

@@ -1,0 +1,120 @@
+Title: Pasteurisation
+
+----
+
+Artworkimages:
+
+- 
+  artworkimage:
+    - file://XC6X5MiSF0IlhXwk
+  caption: >
+    Information, 2019, Acrylic on paper, 80
+    x 60 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://uaFKI7PEvu59aHvH
+  caption: >
+    Unfinished story, 2019, Acrylic on
+    paper, 80 x 60 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://QYQ686GkNhc3eQVG
+  caption: >
+    Untitled 1, 2019, Acrylic on paper, 80 x
+    60 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://HiWuQ3ZHRWWqJhlo
+  caption: >
+    Hurensohn, 2019, Acrylic on paper, 55 x
+    39 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://yNybkNsuJu5CcVV6
+  caption: >
+    Monster, 2020, Acrylic on paper, 55 x 39
+    cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://n6ptmbQDYOvLNO5j
+  caption: >
+    Untitled 2, 2019, Acrylic on paper, 55 x
+    39 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://UDAPGDmiVltggmwE
+  caption: Nuit, 2020, Acrylic on paper, 39 x 48 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://bopmVGseVCID1DLv
+  caption: >
+    Tic tac toe, 2021, Acrylic on paper, 143
+    x 54 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://hs9fhgkW7M5SajS3
+  caption: >
+    Untitled 4, 2021, Etching on paper,
+    Edition of 7, 53,5 x 40 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://o0Wxr4hEPykiXzOa
+  caption: >
+    Untitled 3, 2021, Etching on paper,
+    Edition of 7, 70 x 50 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://f2UPee06VuqBqcU2
+  caption: >
+    Untitled 5, 2021, Etching on paper,
+    Edition of 7, 79 x 48 cm
+  exhibition_view: 'false'
+  exhibition: ""
+- 
+  artworkimage:
+    - file://a01qWONvQMbFSeQf
+  caption: 'Stadt. Land. Fluss, Wälderhaus, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/stadt-land-fuss
+- 
+  artworkimage:
+    - file://c4TqRopfqIyn0E32
+  caption: 'Stadt. Land. Fluss, Wälderhaus, Hamburg (Germany), 2025, Photo: Julien Kartheuser'
+  exhibition_view: 'true'
+  exhibition: calendar/stadt-land-fuss
+
+----
+
+Artworktextarea: *Pasteurisation* refers to the short-term heating of liquid or pasty foods to eliminate the vegetative forms of microorganisms. It is used to help preserve nutrients for a longer period. The series *Pasteurisation* is based on scraps of posters and advertisements collected during the artist’s travels around the world. These incidental abstractions, naturally occurring and often unnoticed, were discovered while walking through cities. Captured before they could be destroyed or disappear, they have been preserved in the form of paintings and prints.
+
+----
+
+Additionaltextarea: In a time full of tensions and smouldering conflicts, Elizaveta Ostapenko succeeds in developing creative modes that confront this crisis-ridden time without illustrating it. On the contrary, she shows ways to confront challenges creatively. The concept of the fragmentary is inscribed in the DNA of modernism, namely since the beginning of the 20th century, when collage and montage in literature and the visual arts (in particular the effects and after-effects of Cubism) responded to the fragmentation of a holistic world view that had become impossible. Ostapenko invents new forms of dealing with fragments she collects as traces or creates herself, and in various ways reassembles or brings back to perception. In her sculptural work, she stages these fragments in such a way that the viewer becomes aware: there is not just a single possible view, but each part wants/must be seen from multiple perspectives. The assemblage is created by a dissolved melting or an arrested freezing. One should also be as flexible and creative in thoughts, in order not to surrender to the broken pieces of a fragmented reality, but to create a positive synthesis: a vivid metaphor for processes for the peaceful resolution of conflicts, for the creation of a space of possibilities. Also in her graphic and painterly work, the artist employs such complex remodelling, new syntheses of fragments, which she describes as *pasteurisation*: a further, highly conceptual perspective on solutions to bring broken pieces, and fragments together into a new formation. With her work, Ostapenko awakens positive energies, as she can create a convincingly shaped aesthetic image from even the smallest detail or fragment. Its seemingly playful beauty, even lightness, is only a seduction to engage with her complex/conceptual way of creatively encountering the world and the present.
+
+----
+
+Author: Prof. Dr. Anne-Marie Bonnet, Art historian and professor of art history at the University of Bonn, Germany
+
+----
+
+Uuid: 3cqsiSWijdQ7vBob

@@ -1,0 +1,77 @@
+Title: Jetzt. Noch. Nicht
+
+----
+
+Startdate: 2021-11-07
+
+----
+
+Enddate: 2021-11-20
+
+----
+
+Openingdate: 2021-11-06
+
+----
+
+Openingtime: 19:00:00
+
+----
+
+Location:
+
+- 
+  name: Raum linksrechts
+  street: Valentinskamp 37
+  zip: "20354"
+  city: Hamburg
+  country: Germany
+
+----
+
+Openinghours: 
+
+----
+
+Otherparticipants:
+
+- 
+  otherparticipant: Marie Wiegandt
+- 
+  otherparticipant: Brian Harnisch
+
+----
+
+Website: https://raumlinksrechts.com/2021/10/15/6-11-jetzt-noch-nicht/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: 
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://fGfIpqd9ifYurkhi
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/pasteurisation
+- 
+  eventimage:
+    - file://OwLXJVbBTyGd5TFf
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: ""
+- 
+  eventimage:
+    - file://u9mtHji00FhJciC8
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: series/pasteurisation
+
+----
+
+Uuid: Wu0GXhWV69CUMoWn

@@ -1,0 +1,62 @@
+Title: Jubilee Fifth International Print Biennale Yerevan
+
+----
+
+Startdate: 2025-09-05
+
+----
+
+Enddate: 2025-12-05
+
+----
+
+Openingdate: 2025-09-05
+
+----
+
+Openingtime: 19:00:00
+
+----
+
+Location:
+
+- 
+  name: HayArt Centre
+  street: 7a Mashtots street
+  zip: "0015"
+  city: Yerevan
+  country: Armenia
+
+----
+
+Openinghours: 
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://www.instagram.com/ipbyerevan/?hl=en
+
+----
+
+Download: 
+
+----
+
+Info-textarea: Established as the first and only internationally recognised biennale dedicated to printmaking in Armenia and the surrounding region, this event continues to celebrate and showcase the art of printmaking on a global stage.
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://JuOAl3ENhLsOXrwq
+  caption: ""
+  visibleartworks: ""
+
+----
+
+Uuid: VvMLTAhZSGWoXmQt

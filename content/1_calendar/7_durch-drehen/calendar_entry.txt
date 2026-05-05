@@ -1,0 +1,71 @@
+Title: durch_drehen
+
+----
+
+Startdate: 2024-08-01
+
+----
+
+Enddate: 2024-09-01
+
+----
+
+Openingdate: 2024-08-01
+
+----
+
+Openingtime: 19:00:00
+
+----
+
+Location:
+
+- 
+  name: xpon-art gallery
+  street: Repsoldstraße 45
+  zip: "20097"
+  city: Hamburg
+  country: Germany
+
+----
+
+Openinghours: Monday, Tuesday, Saturday and Sunday from 6:00 PM - 9:00 PM
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://xpon-art.de/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: Since everything is going crazy anyway, it makes sense to turn it into a theme. Twenty artists showcase their explorations in dance, choreography, cyanotype, drawing, radio play, textiles, puppets, objects, photography, video, collage, painting, installation, and sculpture. Fortunately, we have space, and the 15 cm of heavy rain in the cellar was cleared long ago. Nobody noticed, anyway. We'll pull ourselves together.
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://rXquMqBjeYZtFpib
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare,
+    series/my-favourite-journey-between-melting-and-freezing
+- 
+  eventimage:
+    - file://FMUehmrr7SknO4de
+  caption: 'Photo: Courtesy of the artist'
+  visibleartworks: >
+    series/some-say-we-have-no-time-to-stand-and-stare,
+    series/my-favourite-journey-between-melting-and-freezing
+
+----
+
+Uuid: hqc3M4MzvH9NdJOa

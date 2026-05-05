@@ -1,0 +1,65 @@
+Title: Gruppe Motto Art Fair
+
+----
+
+Startdate: 2025-08-22
+
+----
+
+Enddate: 2025-08-24
+
+----
+
+Openingdate: 2025-08-22
+
+----
+
+Openingtime: 14:00:00
+
+----
+
+Location:
+
+- 
+  name: Galerie Gruppe Motto
+  street: Speckstraße 85
+  zip: "20355"
+  city: Hamburg
+  country: Germany
+
+----
+
+Openinghours:
+
+Fri + Sat: 14:00 – 20:00
+Sun: 12:00 – 18:00
+
+----
+
+Otherparticipants: 
+
+----
+
+Website: https://www.instagram.com/gruppemotto/
+
+----
+
+Download: 
+
+----
+
+Info-textarea: Art Fair during the Gängeviertel Geburtstag. A new edition of riso prints is available.
+
+----
+
+Eventimages:
+
+- 
+  eventimage:
+    - file://JqGtEpkznHbMpRIz
+  caption: ""
+  visibleartworks: ""
+
+----
+
+Uuid: w9RNtJKLk6r8jQtW

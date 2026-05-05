@@ -640,7 +640,6 @@ body {
 
 .artwork-title-text {
   display: inline;
-  pointer-events: auto;
 }
 
 .view-exhibition-button {
@@ -872,7 +871,6 @@ body {
   margin-bottom: var(--page-padding-bottom);
   transition: all 0.25s ease-in-out;
   opacity: 1;
-  pointer-events: auto;
 }
 .image-caption.no-opacity {
   opacity: 0;
