@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check if URL contains an artwork slug (exclude about/calendar)
     const currentPath = window.location.pathname;
     const pathSegments = currentPath.split('/').filter(segment => segment !== '');
-    const hasArtworkSlug = pathSegments.length > 0 && 
-                          !pathSegments[0].startsWith('about') && 
-                          !pathSegments[0].startsWith('calendar');
+    const hasArtworkSlug = pathSegments.length > 0 &&
+                          !pathSegments[0].startsWith('about') &&
+                          !pathSegments[0].startsWith('calendar') &&
+                          !pathSegments[0].startsWith('imprint');
 
     if (hasArtworkSlug) {
         // Immediate initialization without animations for direct URL access

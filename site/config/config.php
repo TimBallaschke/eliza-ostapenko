@@ -25,7 +25,7 @@ return [
             'pattern' => '(:all)',
             'action' => function($slug) {
                 // Define slugs that should be handled by JavaScript instead of Kirby pages
-                $jsHandledSlugs = ['about', 'calendar'];
+                $jsHandledSlugs = ['about', 'calendar', 'imprint'];
                 
                 // Check if this slug should be handled by JavaScript
                 $pathSegments = explode('/', $slug);

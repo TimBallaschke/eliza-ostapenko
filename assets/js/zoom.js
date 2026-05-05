@@ -2628,10 +2628,10 @@ function toggleAbout() {
         stepScaling(false);
         isAboutOpen = false;
 
-        // Remove "-about" from URL
+        // Remove trailing "about" or "imprint" segment from URL
         const currentPath = window.location.pathname;
-        if (currentPath.endsWith('about')) {
-            const newPath = currentPath.replace('about', '');
+        if (currentPath.endsWith('about') || currentPath.endsWith('imprint')) {
+            const newPath = currentPath.replace(/(about|imprint)$/, '');
             window.history.pushState({}, '', newPath || '/');
         }
 
@@ -3388,10 +3388,10 @@ function toggleAboutMobile() {
         const newPath = basePath + 'about';
         window.history.pushState({}, '', newPath);
     } else {
-        // Closing about - remove "about" from URL
+        // Closing about - remove trailing "about" or "imprint" segment from URL
         const currentPath = window.location.pathname;
-        if (currentPath.endsWith('about')) {
-            const newPath = currentPath.replace('about', '');
+        if (currentPath.endsWith('about') || currentPath.endsWith('imprint')) {
+            const newPath = currentPath.replace(/(about|imprint)$/, '');
             window.history.pushState({}, '', newPath || '/');
         }
     }
@@ -3855,6 +3855,27 @@ function initializeAboutState() {
     }
 }
 
+function initializeImprintState() {
+    const targetPath = window.location.pathname;
+    const clickImprint = () => {
+        const btn = document.querySelector('.imprint-button');
+        if (btn) btn.click();
+        setTimeout(() => {
+            if (window.location.pathname !== targetPath) {
+                window.history.replaceState({}, '', targetPath);
+            }
+        }, 50);
+    };
+    if (!isMobile()) {
+        toggleAbout();
+        setTimeout(clickImprint, 550);
+    } else {
+        setTimeout(() => openMobileMenu(), 1200);
+        setTimeout(() => toggleAboutMobile(), 1500);
+        setTimeout(clickImprint, 2200);
+    }
+}
+
 // Helper function to initialize calendar state
 function initializeCalendarState(eventSlug = null) {
     if (!isMobile()) {
@@ -3882,6 +3903,15 @@ function initializeFromURL() {
 
     // Parse URL segments
     const pathSegments = currentPath.split('/').filter(segment => segment !== '');
+
+    // Check for imprint state (must come before about, since opening imprint
+    // also requires opening about, and before the artwork fallback below)
+    if (currentPath.includes('imprint')) {
+        setTimeout(() => {
+            initializeImprintState();
+        }, 1000);
+        return;
+    }
 
     // Check for about state
     if (currentPath.includes('about')) {
