@@ -1581,30 +1581,20 @@ function findArtworkContainerByClasses(artworkClasses) {
 }
 
 function scrollContainerToViewportCenter(container) {
-
-    console.log('scrollContainerToViewportCenter', container);
-    console.log('container', container);
-
     const artworksOverviewOutter = document.querySelector('.artworks-overview-outter-container');
-    // Get the container's current position
     const containerRect = container.getBoundingClientRect();
     const viewportCenterY = window.innerHeight / 2;
-    const viewportCenterX = window.innerWidth / 2;
-    
-    // Calculate the container's center position
     const containerCenterY = containerRect.top + (containerRect.height / 2);
-    const containerCenterX = containerRect.left + (containerRect.width / 2);
-    
-    // Calculate how much we need to scroll to center the container
     const scrollOffsetY = containerCenterY - viewportCenterY;
-    const scrollOffsetX = containerCenterX - viewportCenterX;
-    
-    // Scroll to center the container in the viewport
+
+    // Only vertical scroll — horizontal centering of `.artwork-images` would
+    // scroll the parent right by the artwork-number column width, pushing the
+    // numbers off the viewport's left edge.
+    artworksOverviewOutter.scrollLeft = 0;
     artworksOverviewOutter.scrollBy({
         top: scrollOffsetY,
-        left: scrollOffsetX,
         behavior: 'auto'
-    }); 
+    });
 }
 
 function createGalleryOverlayWithClones(mergedGalleryImages) {
